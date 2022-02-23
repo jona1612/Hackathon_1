@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="./logo.svg" class="logo" alt="img">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="./search.svg"></button>
+        </div>
+        <div class="user-options">
+            <img src="video.svg" class="icon" alt="">
+            <img src="./grid.svg" class="icon" alt="">
+            <img src="./bell.svg" class="icon" alt="">
+            <div class="user-dp">
+                <img src="./pexels-negative-space-169573.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="./home.svg" alt="">home</a>
+        <a href="#" class="links"><img src="./explore.svg" alt="">explore</a>
+        <a href="#" class="links"><img src="./subscription.svg" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="./library.svg" alt="">library</a>
+        <a href="#" class="links"><img src="./history.svg" alt="">history</a>
+        <a href="#" class="links play"><img src="./yourvideo.svg" alt="">Playlists</a>
+        <a href="#" class="links"><img src="./watch.svg" alt="">watch later</a>
+        <a href="#" class="links"><img src="./like.svg" alt="">like video</a>
+        <a href="#" class="links"><img src="./more.svg" alt="">show more</a>
+    </div>
+
+    <div class="filters">
+        <!-- <p class="homepage"><img src="./pexels-negative-space-169573.jpg" alt=""></p> -->
+        <button class="filter-options active">All</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">web development</button>
+        <button class="filter-options">python</button>
+        <button class="filter-options">enteraiment</button>
+        <button class="filter-options">marvel</button>
+        <button class="filter-options">javascript</button>
+        <button class="filter-options">artificial intelligence</button>
+        <button class="filter-options">machine learning</button>
+        <button class="filter-options">trending</button>
+    </div>
+
+    <div class="video-container">
+        <div class="video">
+            <img src="./pexels-negative-space-160107.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="./pexels-lukas-574069.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title"> My frist Hackathon | Youtube Clone 2022 </h4>
+                    <!-- <p class="channel-name">modern web</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
